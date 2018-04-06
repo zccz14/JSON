@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:246567bf-43a6-4022-b0ef-a698a24543d2(JSON.typesystem)">
+<model ref="r:246567bf-43a6-4022-b0ef-a698a24543d2(com.zccz14.JSON.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="b7xh" ref="r:12e716f4-4ba8-4f98-9ba9-ae73aa15e3fa(JSON.structure)" implicit="true" />
+    <import index="b7xh" ref="r:12e716f4-4ba8-4f98-9ba9-ae73aa15e3fa(com.zccz14.JSON.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

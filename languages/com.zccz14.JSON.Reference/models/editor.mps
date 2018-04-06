@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0f365e37-f875-4bc2-b90b-1539d6b116cd(JSON.Reference.editor)">
+<model ref="r:0f365e37-f875-4bc2-b90b-1539d6b116cd(com.zccz14.JSON.Reference.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="rrbm" ref="r:b528208f-8c30-43d8-828a-8fa3c58c62e6(JSON.Reference.structure)" implicit="true" />
+    <import index="rrbm" ref="r:b528208f-8c30-43d8-828a-8fa3c58c62e6(com.zccz14.JSON.Reference.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
