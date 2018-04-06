@@ -8,6 +8,7 @@
   <imports>
     <import index="b7xh" ref="r:12e716f4-4ba8-4f98-9ba9-ae73aa15e3fa(JSON.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -56,6 +57,7 @@
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -353,10 +355,21 @@
         </node>
         <node concept="lc7rE" id="Uaidd3eZnh" role="3cqZAp">
           <node concept="l9hG8" id="Uaidd3eZnX" role="lcghm">
-            <node concept="2OqwBi" id="Uaidd3eZxa" role="lb14g">
-              <node concept="117lpO" id="Uaidd3eZoR" role="2Oq$k0" />
-              <node concept="3TrcHB" id="Uaidd3eZD7" role="2OqNvi">
-                <ref role="3TsBF5" to="b7xh:Uaidd3eoo2" resolve="value" />
+            <node concept="2OqwBi" id="Uaidd3fKAL" role="lb14g">
+              <node concept="2OqwBi" id="Uaidd3eZxa" role="2Oq$k0">
+                <node concept="117lpO" id="Uaidd3eZoR" role="2Oq$k0" />
+                <node concept="3TrcHB" id="Uaidd3eZD7" role="2OqNvi">
+                  <ref role="3TsBF5" to="b7xh:Uaidd3eoo2" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Uaidd3fLe3" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <node concept="Xl_RD" id="Uaidd3fLot" role="37wK5m">
+                  <property role="Xl_RC" value="\&quot;" />
+                </node>
+                <node concept="Xl_RD" id="Uaidd3fLPg" role="37wK5m">
+                  <property role="Xl_RC" value="\\\\\&quot;" />
+                </node>
               </node>
             </node>
           </node>
