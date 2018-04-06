@@ -15,6 +15,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -74,6 +75,7 @@
     <property role="R5$K2" value="false" />
     <property role="34LRSv" value="{" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="JSON Object" />
     <ref role="1TJDcQ" node="Uaidd3ecwK" resolve="Element" />
     <node concept="1TJgyj" id="Uaidd3ecwT" role="1TKVEi">
       <property role="IQ2ns" value="1047729935520155705" />
@@ -98,6 +100,7 @@
     <property role="TrG5h" value="KeyValuePair" />
     <property role="34LRSv" value="&quot;" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="Key Value Pair in JSON Object" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Uaidd3emgP" role="1TKVEi">
       <property role="IQ2ns" value="1047729935520195637" />
@@ -119,6 +122,7 @@
     <property role="TrG5h" value="Array" />
     <property role="34LRSv" value="[" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="JSON Array" />
     <ref role="1TJDcQ" node="Uaidd3ecwK" resolve="Element" />
     <node concept="1TJgyj" id="Uaidd3ecwV" role="1TKVEi">
       <property role="IQ2ns" value="1047729935520155707" />
@@ -136,6 +140,7 @@
     <property role="TrG5h" value="True" />
     <property role="34LRSv" value="true" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="boolean true literal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Uaidd3emgU" role="PzmwI">
       <ref role="PrY4T" node="Uaidd3emgM" resolve="IValue" />
@@ -146,6 +151,7 @@
     <property role="TrG5h" value="False" />
     <property role="34LRSv" value="false" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="boolean false literal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Uaidd3emgW" role="PzmwI">
       <ref role="PrY4T" node="Uaidd3emgM" resolve="IValue" />
@@ -156,6 +162,7 @@
     <property role="TrG5h" value="Null" />
     <property role="34LRSv" value="null" />
     <property role="3GE5qa" value="values" />
+    <property role="R4oN_" value="null literal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Uaidd3emgY" role="PzmwI">
       <ref role="PrY4T" node="Uaidd3emgM" resolve="IValue" />
@@ -166,6 +173,7 @@
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="StringValue" />
     <property role="34LRSv" value="&quot;" />
+    <property role="R4oN_" value="string" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Uaidd3emh2" role="PzmwI">
       <ref role="PrY4T" node="Uaidd3emgM" resolve="IValue" />
@@ -180,6 +188,7 @@
     <property role="EcuMT" value="1047729935520155719" />
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="NumberValue" />
+    <property role="R4oN_" value="number" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="Uaidd3emh0" role="PzmwI">
       <ref role="PrY4T" node="Uaidd3emgM" resolve="IValue" />
