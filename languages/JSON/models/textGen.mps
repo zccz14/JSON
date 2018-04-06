@@ -29,6 +29,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -353,25 +354,38 @@
             <property role="lacIc" value="&quot;" />
           </node>
         </node>
-        <node concept="lc7rE" id="Uaidd3eZnh" role="3cqZAp">
-          <node concept="l9hG8" id="Uaidd3eZnX" role="lcghm">
-            <node concept="2OqwBi" id="Uaidd3fKAL" role="lb14g">
-              <node concept="2OqwBi" id="Uaidd3eZxa" role="2Oq$k0">
-                <node concept="117lpO" id="Uaidd3eZoR" role="2Oq$k0" />
-                <node concept="3TrcHB" id="Uaidd3eZD7" role="2OqNvi">
-                  <ref role="3TsBF5" to="b7xh:Uaidd3eoo2" resolve="value" />
-                </node>
-              </node>
-              <node concept="liA8E" id="Uaidd3fLe3" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
-                <node concept="Xl_RD" id="Uaidd3fLot" role="37wK5m">
-                  <property role="Xl_RC" value="\&quot;" />
-                </node>
-                <node concept="Xl_RD" id="Uaidd3fLPg" role="37wK5m">
-                  <property role="Xl_RC" value="\\\\\&quot;" />
+        <node concept="3clFbJ" id="Uaidd3g4r6" role="3cqZAp">
+          <node concept="3clFbS" id="Uaidd3g4r8" role="3clFbx">
+            <node concept="lc7rE" id="Uaidd3eZnh" role="3cqZAp">
+              <node concept="l9hG8" id="Uaidd3eZnX" role="lcghm">
+                <node concept="2OqwBi" id="Uaidd3fKAL" role="lb14g">
+                  <node concept="2OqwBi" id="Uaidd3eZxa" role="2Oq$k0">
+                    <node concept="117lpO" id="Uaidd3eZoR" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="Uaidd3eZD7" role="2OqNvi">
+                      <ref role="3TsBF5" to="b7xh:Uaidd3eoo2" resolve="value" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="Uaidd3fLe3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                    <node concept="Xl_RD" id="Uaidd3fLot" role="37wK5m">
+                      <property role="Xl_RC" value="\&quot;" />
+                    </node>
+                    <node concept="Xl_RD" id="Uaidd3fLPg" role="37wK5m">
+                      <property role="Xl_RC" value="\\\\\&quot;" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3y3z36" id="Uaidd3g5Kl" role="3clFbw">
+            <node concept="2OqwBi" id="Uaidd3g4Jj" role="3uHU7B">
+              <node concept="117lpO" id="Uaidd3g4yM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="Uaidd3g4Vv" role="2OqNvi">
+                <ref role="3TsBF5" to="b7xh:Uaidd3eoo2" resolve="value" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="Uaidd3g5HO" role="3uHU7w" />
           </node>
         </node>
         <node concept="lc7rE" id="Uaidd3f0TW" role="3cqZAp">
