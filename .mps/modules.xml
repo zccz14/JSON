@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/JSON.Reference/JSON.Reference.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/JSON.Reference/sandbox/JSON.Reference.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/JSON/JSON.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/JSON/sandbox/JSON.sandbox.msd" folder="" />
     </projectModules>
